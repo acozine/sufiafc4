@@ -27,6 +27,8 @@ module Sufiafc4
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
-    config.active_record.raise_in_transactional_callbacks = true
+
+    # rolled back to rails 4.1.8, so commenting this out
+    # config.active_record.raise_in_transactional_callbacks = true
   end
 end
