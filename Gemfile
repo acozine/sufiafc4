@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
-gem 'sufia', github: 'projecthydra/sufia', ref: 'v6.0.0.beta1'
+gem 'sufia', github: 'projecthydra/sufia', ref: 'v6.0.0.rc1'
 gem 'kaminari', github: 'harai/kaminari', branch: 'route_prefix_prototype'
 # required to handle pagination properly in dashboard. See https://github.com/amatsuda/kaminari/pull/322
 
